@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Users.sql" />
@@ -67,5 +68,22 @@
     <Build Include="dbo\Tables\Countries.sql" />
     <Build Include="dbo\Tables\Cities.sql" />
     <Build Include="dbo\Tables\__EFMigrationsHistory.sql" />
+    <Build Include="dbo\Stored Procedures\sp_UpdateState.sql" />
+    <Build Include="dbo\Stored Procedures\sp_UpdateCountry.sql" />
+    <Build Include="dbo\Stored Procedures\sp_UpdateCity.sql" />
+    <Build Include="dbo\Stored Procedures\sp_GetStatesByCountryId.sql" />
+    <Build Include="dbo\Stored Procedures\sp_GetStates.sql" />
+    <Build Include="dbo\Stored Procedures\sp_GetStateDetail.sql" />
+    <Build Include="dbo\Stored Procedures\sp_GetCountryDetail.sql" />
+    <Build Include="dbo\Stored Procedures\sp_GetCountries.sql" />
+    <Build Include="dbo\Stored Procedures\sp_GetCityDetail.sql" />
+    <Build Include="dbo\Stored Procedures\sp_GetCitiesByStateId.sql" />
+    <Build Include="dbo\Stored Procedures\sp_GetAllCities.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DeleteState.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DeleteCountry.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DeleteCity.sql" />
+    <Build Include="dbo\Stored Procedures\sp_AddState.sql" />
+    <Build Include="dbo\Stored Procedures\sp_AddCountry.sql" />
+    <Build Include="dbo\Stored Procedures\sp_AddCity.sql" />
   </ItemGroup>
 </Project>
